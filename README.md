@@ -43,4 +43,4 @@ The Subscription Management System is a full-stack web application designed to m
 1. Clone the repository:
    ```bash
    git clone https://github.com/Shreyasri30/Subscription_project.git
-   cd SubscriptionProject
+   cd Subscription_project
