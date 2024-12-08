@@ -27,7 +27,7 @@ class Customer(models.Model):
         unique=True, 
         blank=False, 
         null=False, 
-        default="DEFAULT_PAN"  
+         
     )
 
     def __str__(self):
