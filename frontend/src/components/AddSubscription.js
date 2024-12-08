@@ -50,6 +50,12 @@ const AddSubscription = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (new Date(formData.end_date) < new Date(formData.start_date)) {
+      setMessage('Error: End date must be later than the start date.');
+      alert('Error: End date must be later than the start date.');
+      return;
+    }
     
     const submissionData = {
       customer_id: formData.customer_id,
